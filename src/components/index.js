@@ -1,3 +1,5 @@
 import Experience from "./experience";
 import Education from "./education";
-export { Experience, Education };
+import Card from "./card";
+import Tag from "./tag";
+export { Card, Experience, Education, Tag };

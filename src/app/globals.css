@@ -18,6 +18,18 @@
   /* Additional Colors */
   --accent-color: #ff204e;
   --highlight-color: #a0153e;
+
+  --color-bg1: rgb(100, 0, 162);
+  --color-bg2: rgb(23, 1, 54);
+  --color1: 01, 113, 255;
+  --color2: 221, 74, 255;
+  --color3: 100, 220, 255;
+  --color4: 200, 50, 50;
+  --color5: 100, 100, 50;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+
   font-size: 10px;
 }
 

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { Card, Experience, Education } from "@/components";
 import { useState } from "react";
@@ -14,7 +15,7 @@ export default function Home() {
               target="_blank"
               class="href"
             >
-              <img src="./facebook.svg" alt="SVG Facebook Icon" width="32" />
+              <Image src="./facebook.svg" alt="SVG Facebook Icon" width="32" />
             </a>
           </li>
           <li>
@@ -22,17 +23,17 @@ export default function Home() {
               href="https://www.linkedin.com/in/dat-tran-1aa9b120/"
               target="_blank"
             >
-              <img src="./linkedin.svg" width="32" />
+              <Image src="./linkedin.svg" width="32" alt="LinkedIn Logo SVG" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/secretmind92" target="_blank">
-              <img src="./twitter.svg" width="32" />
+              <Image src="./twitter.svg" width="32" alt="Twitter Logo SVG" />
             </a>
           </li>
           <li>
             <a href="https://github.com/bluegene92" target="_blank">
-              <img src="./github.svg" width="32" />
+              <Image src="./github.svg" width="32" alt="Github Logo SVG" />
             </a>
           </li>
         </ul>
@@ -51,7 +52,7 @@ export default function Home() {
         <br />
 
         <h2 className="text-gray-100">
-          Life is a series of natural and spontaneous changes. Don't resist
+          Life is a series of natural and spontaneous changes. Don&apos;t resist
           them; that only creates sorrow. Let reality be reality. Let things
           flow naturally forward in whatever way they like.
         </h2>

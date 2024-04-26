@@ -1,8 +1,11 @@
+"use client";
+
 import { Card, Experience, Education } from "@/components";
+import { useState } from "react";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <nav className="flex p-8 justify-end">
         <ul class="flex gap-1">
           <li>
@@ -36,8 +39,8 @@ export default function Home() {
       </nav>
       <div className="mx-auto max-w-screen-lg p-8">
         <div>
-          <h1 className="text-8xl text-yellow-400">.NET DEV</h1>
-          <h2 className="text-5xl text-gray-100">Dat Tran</h2>
+          <h1 className="text-8xl text-yellow-500">.NET DEV</h1>
+          <h1 className="text-6xl text-gray-300">Dat Tran</h1>
         </div>
 
         <br />
@@ -60,33 +63,23 @@ export default function Home() {
         <br />
         <br />
 
-        <div>
+        {/* <div>
           <h1>Blog</h1>
           <div className="flex overflow-x-auto overflow-y-hidden">
-            <div className="flex space-x-4 p-4">
-              <Card title="Running SQL Server in Docker" />
-              <Card title="AWS VPC Quickstart" />
-              <Card title="AWS IAM" />
-              <Card title="AWS S3" />
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <br />
-
-        {/* <div>
-          <h1>.Net</h1>
-
-          <div className="flex overflow-x-auto overflow-y-hidden">
-            <div className="flex space-x-4 p4">
-              <Card title="Entity Framework Code-First" />
-              <Card title="Entity Framework Database-First" />
-              <Card title="Middleware" />
-              <Card title="LINQ" />
+            <div className="flex space-x-8 p-4">
+              <Card
+                title="Running SQL Server in Docker"
+                link="/blogs/sqldocker"
+              />
+              <Card title="AWS VPC Quickstart" link="/blogs/awsvpc" />
+              <Card title="AWS IAM" link="/blogs/awsiam" />
+              <Card title="AWS S3" link="/blogs/awss3" />
             </div>
           </div>
         </div> */}
+
+        <br />
+        <br />
 
         <br />
         <br />
@@ -99,7 +92,7 @@ export default function Home() {
               <Card title="Event" />
               <Card title="Tasks" />
               <Card title="Thread" />
-            </div>
+            </div
           </div>
         </div> */}
 
